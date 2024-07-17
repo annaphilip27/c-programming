@@ -1,0 +1,47 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n,m,sum,e,mul,sub;
+    printf("enter nos:");
+    scanf("%d %d",&n,&m);
+    printf("enter choice:");
+    scanf("%d",&e);
+    
+        if(e==1)
+        {
+            sum=n+m;
+        printf("sum =%d\n",sum);
+        
+        }
+        
+
+      
+        if(e==2)
+        {
+             mul=n*m;
+        printf("mul =%d\n",mul);
+        
+        
+       
+        }
+       
+        if(e==3)
+        {
+             sub=n-m;
+        printf("sub =%d\n",sub);
+       
+        
+        }
+        
+        else
+        {
+             printf("Invalid Choice");
+        
+            
+        }
+       
+
+    
+    return 0;
+}
