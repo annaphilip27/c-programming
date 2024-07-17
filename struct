@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+struct person
+{
+    char name[10];
+    int age;
+};
+int main(){
+    
+
+    int n,i,age;
+    char name;
+    printf("num:");
+    scanf("%d",&n);
+
+struct person person[n];
+
+for(i=0;i<n;i++)
+
+{
+    printf("enter the name of person %d\n",i+1);
+    scanf("%s",&name,person[i].name);
+    printf("enter the age of person %d\n",i+1);
+    scanf("%d",&age,person[i].age);
+  
+    
+}
+printf("\ndetails\n");
+printf("person=%d,name=%s,age=%d\n",i+1,person[i].name,person[i].age);
+return 0;
+}
